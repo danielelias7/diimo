@@ -14,4 +14,4 @@ Diimo project
 - php artisan l5-swagger:generate
 
 #FIlE .env
-Add Variable L5_SWAGGER_CONST_HOST=http://project.test/api/v1
+- Add Variable L5_SWAGGER_CONST_HOST=http://project.test/api/v1
