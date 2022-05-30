@@ -33,7 +33,7 @@ Route::group([
     Route::post('login', [AuthController::class,'login']);
     Route::post('logout', [AuthController::class, 'logout']);
     Route::post('refresh',[AuthController::class,'refresh']);
-    Route::get('me', [AuthController::class,'me']);
+    Route::get('me', [UserController::class,'me']);
     Route::post('register', [AuthController::class,'register']);
     Route::post('forgot-password', [AuthController::class,'forgotPassword']);
     Route::post('reset-password', [AuthController::class,'resetPassword'])->name('password.reset');
